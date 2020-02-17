@@ -16,5 +16,10 @@ objdump ... --start-address=ADDR
 1. Loops 
 Normal pattern, not even inc and dec are used
 compiler changes value such that i<5 changes to i<=4.
+It is not necessary that way.
 
+2. PreProcessing functions:
+
+If you are directly reading assembly, sometimes initial functions confuse you.
+Using radare for these functions are helpful, so we focus on the important part.
 

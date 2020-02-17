@@ -77,5 +77,14 @@ TEST op
 test a,b => a&b, then check for flag being set to zero (used before jump)
 
 
+# Mul instructions
+
+mul always works on eax
+So,
+mul ecx will multiply mul(eax, ecx) and store lower 32 bits in eax and upper 32 bits in edx.
+
+
 #Important task, Recognising patterns in Assembly
+
+
 
